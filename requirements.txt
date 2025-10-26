@@ -1,0 +1,8 @@
+pandas
+numpy
+google-api-python-client # For YouTube Data Scraping
+vaderSentiment
+textblob
+scikit-learn # For Topic Modelling (LDA/NMF) and Keyword Clustering
+matplotlib
+seaborn
