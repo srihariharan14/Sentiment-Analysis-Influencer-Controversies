@@ -79,14 +79,14 @@ The analysis follows a three-step data science pipeline, mirroring the project r
 ## 📂 Repository Structure
 
 Sentiment-Analysis-Influencer-Controversies/
-├── data/
+├── data/              # Stores all datasets
 │   ├── raw/           # Raw, untouched scraped data (ignored by git)
 │   └── processed/     # Cleaned data with added sentiment scores
 ├── notebooks/         # Sequential Jupyter notebooks for execution and results
-├── src/               # Modular Python scripts (functions for scraping, analysis, etc.)
+├── src/               # Modular Python scripts (reusable functions)
 │   ├── data_scraper.py
 │   ├── sentiment_analyzer.py
 │   ├── topic_modeler.py
 │   └── __init__.py
 ├── .gitignore         # Excludes venv/ and data/raw/
-└── requirements.txt   # List of all Python dependencies
+└── requirements.txt   # Lists all Python dependencies
